@@ -1,0 +1,46 @@
+body {
+    background-color: #222;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #080808;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: #0C0C0C;
+}
+
+a:hover {
+    color: #040404;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+}
+
+
+#slide1 {
+    /* display: none; */
+    width: 100%;
+    margin-top: 300px;
+    text-align: center;
+}
+
+#slide1_header {
+    width: 100%;
+    color: #999;
+    font-size: 72px;
+}
+
+#slide1_body {
+    color: #777;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+    font-style: italic;
+}
